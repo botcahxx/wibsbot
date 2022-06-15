@@ -1,8 +1,8 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.owner = ['62882016646288','62882016646288']
-global.premium = ['62882016646288']
+global.owner = ['6283834558105']
+global.premium = ['6283834558105']
 global.packname = ''
 global.author = 'Wa :62882016646288\nYT : WANGAMING\nIG : wz_store12\nGH : WibsBotz\nTT : wz_store12'
 global.sessionName = 'WzFames'
@@ -39,7 +39,7 @@ global.mess = {
 
 global.limitawal = {
     premium: "Infinity",
-    free: 5
+    free: 30
 }
 
 

@@ -38,7 +38,7 @@ async function startkirbotz() {
     const kirbotz = kirbotzConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['WibsBotz - MD','Safari','1.0.0'],
+        browser: ['botcahx - MD','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -118,14 +118,14 @@ let nama = await kirbotz.getName(num)
 memb = metadata.participants.length
 let btn = [{
 urlButton: {
-displayText: '🧸ＹＯＵＴＵＢＥ',
-url: 'https://youtube.com/channel/UCsQHOaoM4b1ta7bZVLvc_Pg'
+displayText: 'Website',
+url: 'myblogxyz.netlify.app'
 }
 }, 
 {
 urlButton: {
-displayText: '☠️ＯＷＮＥＲ',
-url: 'https://wa.me/62882016646288'
+displayText: '☠️Owner
+url: 'https://wa.me/6282221792667
 }
 },
 {
@@ -136,19 +136,19 @@ id: 'welcome'
 }]
 let bton = [{
 urlButton: {
-displayText: '🧸ＹＯＵＴＵＢＥ',
-url: 'https://youtube.com/channel/UCsQHOaoM4b1ta7bZVLvc_Pg'
+displayText: 'Website
+url: 'myblogxyz.netlify.app'
 }
 }, 
 {
 urlButton: {
-displayText: '☠️ＯＷＮＥＲ',
-url: 'https://wa.me/62882016646288'
+displayText: '☠️Owner
+url: 'https://wa.me/6282221792667'
 }
 },
 {
 quickReplyButton: {
-displayText: 'ＢＹＥ ＢＥＢＡＮ',
+displayText: 'bye
 id: 'bye'
 }
 }]                  

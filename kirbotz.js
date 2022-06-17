@@ -347,8 +347,8 @@ img: await resz.getBufferAsync(jimp.MIME_JPEG)
         "mediaType": 2, 
         "thumbnail": ppnyauser,
         "previewType": "VIDEO",
-        "mediaUrl": `https://youtu.be/b0CCKgVEhlk`,
-        "sourceUrl": `https://youtu.be/b0CCKgVEhlk`}}},
+        "mediaUrl": `myblogxyz.netlify.app`,
+        "sourceUrl": `myblogxyz.netlify.app`}}},
         { quoted: m })
         }
 	
@@ -811,7 +811,7 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/62882016646288`}},
+{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6282221792667`}},
 {"quickReplyButton": {"displayText": "Sewabot","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
 {"quickReplyButton": {"displayText": "Status Botz","id": 'ping'}}
@@ -860,7 +860,7 @@ if (!isCreator) return reply(mess.owner)
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// Created By Wz Botz\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created 2022\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1053,7 +1053,7 @@ let secmmknya = [
 ]
 }
 ]
-kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Topup Game By NabbBotz ", secmmknya, { quoted: efff })
+kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Topup Game ", secmmknya, { quoted: efff })
 break
 case 'topup5':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
@@ -1078,7 +1078,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 }]
 }
@@ -1174,7 +1174,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 }]
 }
@@ -1206,7 +1206,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 }]
 }
@@ -1238,7 +1238,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 }]
 }
@@ -1270,7 +1270,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 }]
 }
@@ -1330,11 +1330,11 @@ ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 }
 kirbotz.sendMessage(m.chat, { image: { url: ppuser }, caption: texnr, mentions: await kirbotz.parseMention(texnr), contextInfo:{externalAdReply:{
 title:"WhatsApp Bot Multi Device",
-body:"By NabbBotz",
+body:"bot",
 thumbnail: ppnyauser,
 mediaType:2,
-mediaUrl: "https://youtu.be/b0CCKgVEhlk",
-sourceUrl: "https://youtu.be/b0CCKgVEhlk"
+mediaUrl: "myblogxyz.netlify.app",
+sourceUrl: "myblogxyz.netlify.app"
 }}}, {quoted:m})
 }
 break
@@ -1594,17 +1594,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By you',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/BOTCAHX'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1629,17 +1629,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By you',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/BOTCAHX'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1664,17 +1664,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created BY ME',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/BOTCAHX'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1699,17 +1699,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created YOU',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/BOTCAHX'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282221792667'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1994,7 +1994,7 @@ kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
 				    itemCount: 99999999,
 				    status: 1,
 				    surface: 1,
-				    message: 'Created By Wz Botz',
+				    message: 'Created By YOU',
 				    orderTitle: '999999999', 
 				    sellerJid: `0@s.whatsapp.net` 
 				   }
@@ -2652,7 +2652,7 @@ ules = `${ucapanWaktu} 𝐊𝐚𝐤 *${pushname}*
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/62882016646288*_`
+_*https://wa.me/6282221792667*_`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/kirbotz.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
